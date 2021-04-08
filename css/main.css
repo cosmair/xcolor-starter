@@ -29,7 +29,7 @@ header {
 
 .col-3 {
   width: 100%;
-  height: 320px;
+  height: 300px;
   float: left;
 }
 
@@ -50,7 +50,7 @@ header {
 
 footer {
   width: 100%;
-  height: 30px;
+  height: 35px;
   background: #e3e3e3;
 }
 
@@ -60,23 +60,28 @@ footer {
 
 @media (min-width: 768px) {
   header {
-    background-color: #0000ff;
+    background-color: #6ed40e;
   }
 
   #column-1 {
-    background-color: #fff8dc;
+        background-color: #fff8dc;
   }
 
   #column-2 {
-    background-color: #dc143c;
+        background-color: #dc143c;
   }
 
   #column-3 {
-    background-color: #008b8b;
+    background-color: #999;
+    width: 100%;
   }
 
   footer {
     background-color: #8a2be2;
+  }
+
+  .col-3 {
+    width: 50%;
   }
   
 }
@@ -98,10 +103,15 @@ footer {
 
   #column-3 {
     background-color: #FFD700;
+    width: 33.3%;
   }
 
   footer {
     background-color: #4B0082;
+  }
+
+  .col-3 {
+    width: 33.3%;
   }
    
 }
